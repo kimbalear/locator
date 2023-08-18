@@ -1,0 +1,43 @@
+@import "utils/_variables.scss",
+"utils/mixins";
+
+@import "base/typography";
+
+@import "layout/list_clinics",
+"layout/grid";
+
+@import "images/_logos.scss",
+"images/_icons.scss";
+
+@import "components/_navBar.scss",
+"components/cards",
+"components/_menus.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    main {
+        padding: 8px;
+        flex: 1;
+        overflow-y: scroll;
+    }
+
+    aside,
+    footer {
+        height: auto;
+        padding: 8px;
+    }
+}

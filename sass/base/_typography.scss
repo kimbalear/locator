@@ -1,0 +1,60 @@
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+// Variables de tipografía
+$font-family-base: 'Rubik', sans-serif;
+$font-size-base: 16px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+$text-color: $Neutral7;
+$heading-color: $Shade2;
+
+// base styles
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+}
+
+// Header Styles
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-bold;
+  color: $Shade2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+// Styles for bold text
+strong {
+  font-weight: $font-weight-bold;
+}
+
+// Styles for italic text
+em {
+  font-style: italic;
+}

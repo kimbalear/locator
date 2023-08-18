@@ -1,0 +1,27 @@
+.container-2-columns {
+    @include columns-layout(2, 12px);
+}
+
+.container-3-columns {
+    @include columns-layout(3, 12px);
+}
+
+.container-4-columns {
+    @include columns-layout(4, 12px);
+}
+
+.container-5-columns {
+    @include columns-layout(5, 12px);
+}
+
+.container-6-columns {
+    @include columns-layout(6, 12px);
+}
+
+.container-7-columns {
+    @include columns-layout(7, 12px);
+}
+
+.container-8-columns {
+    @include columns-layout(8, 12px);
+}

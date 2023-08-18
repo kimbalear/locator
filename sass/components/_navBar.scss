@@ -1,0 +1,16 @@
+.navbar {
+    @include flex-center-space-between($Shade1, $padding-y-8, $padding-x-16);
+    border-bottom: 0.5px solid $Neutral6;
+
+    &__menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        list-style: none;
+    
+            &__item {
+                margin: 0 0 0 12px;
+            }
+    }
+}
